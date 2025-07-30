@@ -1,0 +1,9 @@
+{
+  "echofake": "./EchoFake",
+  "echofakeclean": "./EchoFake",
+  "asvspoof2019": "/data1/datasets/ASVspoof2019/",
+  "inthewild": "/data1/datasets/In-the-Wild/",
+  "asvspoof2021la": "/data1/datasets/ASVspoof2021/ASVspoof2021_LA_eval",
+  "asvspoof2021df": "/data1/datasets/ASVspoof2021/ASVspoof2021_DF_eval",
+  "wavefake": "/data2/datasets/wavefake"
+}

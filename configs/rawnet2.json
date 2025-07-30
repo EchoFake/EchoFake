@@ -1,0 +1,15 @@
+{
+  "train": {
+    "exp_name": "RawNet2-EchoFakeClean",
+    "batch_size": 128,
+    "num_epochs": 80,
+    "num_workers": 16,
+    "max_len": 64000,
+    "check_val_every_n_epoch": 1,
+    "seed": 1145,
+    "save_top_k": 1,
+    "trainset": "EchoFakeClean",
+    "num_classes": 2
+  },
+  "optimizer": { "name": "Adam", "lr": 1e-4, "weight_decay": 1e-4 }
+}

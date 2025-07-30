@@ -1,0 +1,16 @@
+{
+  "train": {
+    "exp_name": "W2V-Linear-WaveFake",
+    "batch_size": 32,
+    "num_epochs": 12,
+    "num_workers": 16,
+    "max_len": 64000,
+    "check_val_every_n_epoch": 1,
+    "seed": 3939,
+    "save_top_k": 1,
+    "trainset": "WaveFake",
+    "num_classes": 2
+  },
+  "optimizer": { "name": "Adam", "lr": 1e-5, "weight_decay": 1e-4 },
+  "scheduler": { "min_lr": 1e-8 }
+}
